@@ -16,18 +16,18 @@ int main()
     cout << "Please enter the following for your personalized adventure\n";
     cout << "Enter а number: ";
     cin >> adventurers;
-    cout << "Enter а number. sma 11 er than the fi rst: ";
+    cout << "Enter а number. smaller than the first: ";
     cin >> killed;
     survivors = adventurers - killed;
-    cout << "Enter your 1 ast name: ";
+    cout << "Enter your last name: ";
     cin >> leader;
 
     cout << "\nA brave group of" << adventurers << " set out on а quest ";
     cout << "-- in search of the lost treasure of the Ancient Dwarves. ";
     cout << "The group was led Ьу that legendary rogue. " << leader << ". \n";
-    cout << "\nAl ong the way. а band of maraudi ng ogres ambushed the party. ";
+    cout << "\nA long the way, а band of marauding ogres ambushed the party. ";
     cout << "All fought bravely under the command of " << leader;
-    cout << ". and the ogres were defeated. but at а cost. ";
+    cout << "and the ogres were defeated. but at а cost. ";
     cout << "Of the adventurers. " << killed << " were vanqui shed. ";
     cout << "leaving just " << survivors << " in the group.\n";
     cout << "\nThe party was about to give up all hope. ";
