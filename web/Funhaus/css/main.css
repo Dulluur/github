@@ -1,0 +1,58 @@
+/* Other css */
+@import url(./normalize.css);
+/* /other css */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* /Fonts */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.header{
+    font-family: "Playfair Display", serif;
+}
+.header__container{
+    margin: 40px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    font-size: 40px;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list-item{
+    padding-left: 30px;
+    list-style: none;
+}
+
+.header__list-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.header__list-item a:hover{
+    color: gold;
+}
+
+/* /header */
+
+
+/* main */
+.main{
+
+}
+.main__text{
+
+}
