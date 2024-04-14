@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@font-face {
+    font-family: "Motter Corpus Std";
+    src: url('../assets/Motter\ Corpus\ Std\ Regular.otf');
+}
+
+@import url('../css/header.css');
+
+@import url('../css/normalize.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
