@@ -12,3 +12,14 @@
  *
  * 4. Вызовите функцию
  */
+
+
+// function diff(a, b){
+//     return a - b;
+// }
+
+// console.log(diff(10, 20))
+
+const num = parseInt("7*6", 10);
+console.log(num)
+
