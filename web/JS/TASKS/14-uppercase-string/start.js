@@ -12,3 +12,11 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const hello = "Hello";
+const world = "World";
+
+const greeting = hello + " " + world;
+const greeting2 = `${hello} ${world}`;
+console.log(greeting);
+console.log(greeting2);

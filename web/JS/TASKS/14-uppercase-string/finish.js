@@ -12,3 +12,11 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+
+let a = "Du"
+console.log(a instanceof String)
+console.log(typeof a)
+
+let b = a.toUpperCase
+console.log(b)

@@ -14,12 +14,13 @@
  */
 
 
-// function diff(a, b){
-//     return a - b;
-// }
 
-// console.log(diff(10, 20))
+function diff(a,b){
+    return a - b;
+}
 
-const num = parseInt("7*6", 10);
-console.log(num)
+const c = diff(10, 5)
+console.log(c)
+
+
 
