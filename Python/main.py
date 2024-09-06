@@ -256,7 +256,7 @@
 # def user_info(name, comments_qty = 0):
 #     if not comments_qty:
 #         return f"{name} has no comments"
-    
+
 #     return f"{name} has {comments_qty} comments"
 
 # name, comments_qty = user_profile
@@ -272,10 +272,10 @@
 # num_one = 1
 # num_two = 5
 
-# if(num_one > 0 and 
-#    num_two > 0 and 
-#    isinstance(num_one, int) and 
-#        isinstance(num_two, int)): 
+# if(num_one > 0 and
+#    num_two > 0 and
+#    isinstance(num_one, int) and
+#        isinstance(num_two, int)):
 #    print("YES")
 
 # my_number = 2.5
@@ -310,7 +310,7 @@
 # def nums_info(a,b):
 #     if(type(a) is not int) or (type(b) is not int):
 #         return "Один из аргументов не целое число"
-    
+
 #     if a>=b:
 #         return f"{a} больше или равно {b}"
 #     return f"{a} меньше {b}"
@@ -329,21 +329,21 @@
 #         return f"Distance to your destination is {distance}"
 #     else:
 #         return "No distance info is available"
-    
+
 # route1 = {'distance': 120}
-# print(route_info(route1))  
+# print(route_info(route1))
 
 # route2 = {'speed': 60, 'time': 2}
-# print(route_info(route2)) 
+# print(route_info(route2))
 
 # route3 = {'speed': 60}
-# print(route_info(route3))  
+# print(route_info(route3))
 
 # route4 = {'distance': 'far'}
-# print(route_info(route4)) 
+# print(route_info(route4))
 
 # route5 = {}
-# print(route_info(route5))  
+# print(route_info(route5))
 
 # my_number = 21.5
 
@@ -359,4 +359,66 @@
 # my_img = ('1920', '1080', False)
 # info = (f"{my_img[0]}x{my_img[1]}") if len(my_img) == 2 else print("Incorrect image formatting")
 # print(info)
+
+# dict = {
+#     "name": 'Du',
+#     "family": 'Okoneshnikov',
+# }
+
+# upper_dict = {key: value.upper() for key, value in dict.items()}
+
+# print(upper_dict)
+
+
+# my_dict = {
+#     "name": "Du",
+#     "family": "Okoneshnikov",
+#     "city": "Moscow"
+# }
+
+# uppercase_dict = {key: value.upper() for key, value in my_dict.items()}
+# print(uppercase_dict)
+
+
+# dict = {
+#     "name": 'Du',
+#     "family": 'Okoneshnikov',
+# }
+# when3less = {key: value for key, value in dict.items() if len(value) > 3}
+# print(when3less)
+
+# for i in range(1, 11):
+#     print(i)
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# for a in fruits:
+#     print(a)
+
+# numbers = [2, 4, 6, 8, 10]
+# for n in numbers:
+#     print(n * 2)
+
+# items = ["book", "pen", "notebook", "pencil", "eraser"]
+
+# print(len(items))
+
+# for b in items:???????????????
+    # print(len(b))?????????????
+
+
+# for i in range(1, 21):
+#     if i%2 == 0:
+#         print(i)
+
+# numbers = [23, 89, 5, 77, 90, 12, 45]
+
+# result = numbers[0]
+
+# for i in numbers:
+#     if i > result:
+#         result = i 
+# print(result)
+
+# print(max(numbers))
+
 
