@@ -422,3 +422,22 @@
 # print(max(numbers))
 
 
+# class Car:
+#     def move(self):
+#         print("Car is move")
+#     def stop(self):
+#         print("Car is stopped")
+
+# my_car = Car()
+# second_car = Car()
+
+# print(my_car == second_car)
+
+# class Comment:
+#     def __init__(self, text):
+#         self.text = text
+#         self.votes_qty = 0
+#     def upvote(self):
+#         self.votes_qty +=1
+
+# first_comment = Comment("First commit")
