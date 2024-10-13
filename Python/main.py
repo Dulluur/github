@@ -421,23 +421,35 @@
 
 # print(max(numbers))
 
-
-# class Car:
+# class Car: 
 #     def move(self):
-#         print("Car is move")
+#         print("Car is moving")
 #     def stop(self):
 #         print("Car is stopped")
 
 # my_car = Car()
-# second_car = Car()
 
-# print(my_car == second_car)
+# print(type(my_car))
+
 
 # class Comment:
-#     def __init__(self, text):
+#     def __init__(self, text, initial_votes_qty = 0):
 #         self.text = text
+#         self.votes_qty = initial_votes_qty
+#     def upvote(self, qty):
+#         self.votes_qty += qty
+#     def reset_votes_qty(self):
 #         self.votes_qty = 0
-#     def upvote(self):
-#         self.votes_qty +=1
 
-# first_comment = Comment("First commit")
+# my_comment = Comment("My comment", 10)
+# print(my_comment.votes_qty)
+
+# class ExtendedList(list):
+#     def print_list_info(self):
+#         print(f"List has {len(self)} elements")
+    
+# custom_list = ExtendedList([3,5,2])
+# custom_list.print_list_info()
+# custom_list.append(7)
+# custom_list.print_list_info()
+
