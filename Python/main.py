@@ -453,3 +453,11 @@
 # custom_list.append(7)
 # custom_list.print_list_info()
 
+# import json
+
+# json_str = '{"id":235, "brand": "Nike", "qty":84, "status":{"isForSale":true}}'
+
+# sneakers = json.loads(json_str)
+# json_from_dict = json.dumps(sneakers, indent=2)
+
+# print(json_from_dict)
