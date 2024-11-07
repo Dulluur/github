@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #000;
 }
 .sl-box {
   margin: 50px auto;
@@ -16,7 +17,8 @@ body {
   align-items: center;
 }
 .img-center {
-  transition: height 0.3s ease-in-out;
+  height: 100%;
+  transition: scale 0.3s ease-in-out;
 }
 
 .img {

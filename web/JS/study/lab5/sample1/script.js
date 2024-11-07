@@ -6,13 +6,13 @@ const imgRight = document.getElementById('img-right');
 // Обработка события наведения курсора мыши на центральное изображение
 imgCenter.addEventListener('mouseenter', function() {
     // Увеличиваем высоту изображения на 10%
-    imgCenter.style.height = '110%';
+    imgCenter.style.scale = '110%';
 });
 
 // Обработка события ухода курсора мыши с центрального изображения
 imgCenter.addEventListener('mouseleave', function() {
     // Возвращаем высоту изображения к исходной
-    imgCenter.style.height = '100%';
+    imgCenter.style.scale = '100%';
 });
 
 // Обработка события клика на центральном изображении
