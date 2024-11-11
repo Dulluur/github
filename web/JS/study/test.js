@@ -1,11 +1,13 @@
-let randomNumber = Number(trunc(Math.random() * 5) + 1)
+let arr = [10, 25, 30, 47, 50];
+let str = ["apple", "banana", "cherry", "date", ["elm", "fig", "grape"]];
 
-let pickNumber = Number(prompt("Попробуй отгадать число: "))
+const reverseNumber = (k) => {
+  let numStr = arr[k].toString();
+  let reversedStr = "";
+  for (let i = numStr.length - 1; i >= 0; i--) {
+      reversedStr += numStr[i];
+  }
+  return parseInt(reversedStr, 10);
+};
+console.log("Обратный порядок цифр k-го элемента:", reverseNumber(1));
 
-if(!Number.isInteger(pickNumber) || pickNumber < 1 || pickNumber > 5){
-  alert("НЕ ТАК")
-}else if(pickNumber === randomNumber){
-  alert("Верно")
-}else{
-  alert(`Нет не ${pickNumber}, я загадол число ${randomNumber}`)
-}
