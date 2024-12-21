@@ -1,13 +1,8 @@
-function getTimeBySeconds(sec) {
-  const hours = Math.floor(sec / 3600);
-  const minutes = Math.floor((sec % 3600) / 60);
-  const remainingSeconds = sec % 60;
+"use strict"
 
-  const formattedHours = String(hours).padStart(2, "0");
-  const formattedMinutes = String(minutes).padStart(2, "0");
-  const formattedSeconds = String(remainingSeconds).padStart(2, "0");
+fn();
 
-  return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+function fn(){
+  console.log("Hello world!")
+  fn()
 }
-
-console.log(getTimeBySeconds(5))
