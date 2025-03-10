@@ -14,6 +14,6 @@ function myFunction() {
 
 myFunction()
 
-// // Переменная "a" доступна только внутри функции
+// Переменная "a" доступна только внутри функции
 // console.log(a)
-// // ReferenceError: a is not defined
+// ReferenceError: a is not defined

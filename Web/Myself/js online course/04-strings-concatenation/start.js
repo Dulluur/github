@@ -10,3 +10,15 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const yearBird = prompt('How old are u?: ', 18)
+
+if(yearBird > 18){
+    console.log("Доступ разрешене")
+}
+else if(yearBird < 18){
+    console.log("Доступ не разрешен, слишком маленький")
+}
+else{
+    console.log("Введено не правильное значение")
+}

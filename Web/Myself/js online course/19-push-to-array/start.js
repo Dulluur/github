@@ -6,3 +6,8 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+let someMassive = [1,2,3]
+someMassive.push(4)
+console.log(someMassive)
+console.log(someMassive.length)

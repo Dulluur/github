@@ -12,3 +12,4 @@ myFavoriteAnimal = 'Cat'
 
 console.log(myFavoriteAnimal)
 // 'Cat'
+

@@ -8,6 +8,6 @@
  * 3. Выведите значение переменной в консоль
  */
 
-const myCountry = 'Ukraine'
+const myCountry = 'Russia'
 
 console.log(myCountry)

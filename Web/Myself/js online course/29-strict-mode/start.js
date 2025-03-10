@@ -7,9 +7,10 @@
 
 'use strict'
 
+const a = 2
+
 function myFunction() {
-  a = 2
-  return a
+  console.log(a)
 }
 
-myFunction()
+myFunction(a)
