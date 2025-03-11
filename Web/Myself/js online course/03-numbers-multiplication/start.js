@@ -7,3 +7,10 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const number1 = 18
+const number2 = 2
+
+const resultEnum = number1 * number2
+
+console.log(resultEnum)

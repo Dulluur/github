@@ -10,3 +10,12 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+const isStrow = () =>{
+    return "sayHello"
+}
+
+const isStrow2 = () => "Hello"
+
+console.log(isStrow())
+console.log(isStrow2())

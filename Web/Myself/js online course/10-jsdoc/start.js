@@ -12,3 +12,21 @@
  *
  * 4. Вызовите функцию
  */
+
+
+/**
+ * Возвращает разницу двух чисел
+ * @param {number} firstNumber
+ * @param {number} secondNumber
+ * @returns {number} Разница чисел
+ */
+
+const firstNumber = 23
+const secondNumber = 18
+
+function reverseNubmer (firstNumber, secondNumber){
+    result = firstNumber - secondNumber
+    console.log(result)
+}
+
+reverseNubmer(firstNumber, secondNumber)

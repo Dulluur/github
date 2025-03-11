@@ -10,11 +10,10 @@
  */
 
 const person = {
-  name: 'Bogdan',
-  surname: 'Stashchuk',
+  name: "Bogdan",
+  surname: "Stashchuk",
   favoriteNumber: 5,
-}
+};
 
-const personInfo = `My name is ${person.name} ${person.surname} and my favorite number is ${person.favoriteNumber}`
-
-console.log(personInfo)
+const personInfo = `My name is ${person.name} ${person.surname} and my favorite number is ${person.favoriteNumber}`;
+console.log(personInfo);

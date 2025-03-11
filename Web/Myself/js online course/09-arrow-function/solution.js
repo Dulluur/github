@@ -11,12 +11,13 @@
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
 
-// // Явный возврат результата
-// const helloWorld = () => {
-//   return 'Привет, мир!'
-// }
+// Явный возврат результата
+const helloWorld = () => {
+  return 'Привет, мир!'
+}
 
 // Неявный возврат результата
-const helloWorld = () => 'Привет, мир!'
+const helloWorld2 = () => 'Привет, мир!'
 
 console.log(helloWorld())
+console.log(helloWorld2())

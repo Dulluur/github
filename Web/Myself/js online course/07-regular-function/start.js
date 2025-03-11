@@ -8,3 +8,11 @@
  *
  * 4. Вызовите функцию
  */
+
+function myName(myNIMI) {
+    console.log(myNIMI)
+}
+
+myName("Du")
+
+// console.log(myName("Du"))

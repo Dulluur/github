@@ -13,10 +13,9 @@
  * 5. Выведите в консоль значение второй переменной
  */
 
-const hello = "Hello";
-const world = "World";
+const stringNumber1 = "Du"
+console.log(stringNumber1 instanceof String)
+console.log(typeof(stringNumber1))
 
-const greeting = hello + " " + world;
-const greeting2 = `${hello} ${world}`;
-console.log(greeting);
-console.log(greeting2);
+const stringNumber2 = stringNumber1.toUpperCase()
+console.log(stringNumber2)

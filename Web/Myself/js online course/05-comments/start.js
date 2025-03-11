@@ -7,3 +7,12 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+/*
+function enumTwoNumbers(a,b){
+    let c = a * b
+    return c
+}
+*/
+
+// console.log(enumTwoNumbers(3,5)) 

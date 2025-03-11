@@ -6,3 +6,8 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+const sayGood = "Good Morning"
+
+const sayEvening = sayGood.replace("Morning", "Evening")
+console.log(sayEvening)

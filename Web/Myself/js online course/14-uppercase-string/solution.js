@@ -14,13 +14,10 @@
  */
 
 const myFavoriteSeason = 'summer'
-
 console.log(myFavoriteSeason instanceof String)
-
 console.log(typeof myFavoriteSeason)
 
 const seasonToUpperCase = myFavoriteSeason.toUpperCase()
-
 console.log(seasonToUpperCase)
 
 // // СОЗДАНИЕ ЭКЗЕМПЛРЯРА String

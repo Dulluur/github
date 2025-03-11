@@ -4,3 +4,10 @@
  *
  * 2. Используйте стрелочную функцию
  */
+
+// const sayHello = () => console.log(("Привет мир!", 5000))
+setTimeout(() => console.log("Привет мир!"), 5000)
+// sayHello()
+
+
+// setTimeout(() => console.log('Привет, мир!'), 5000)
