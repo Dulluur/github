@@ -4,3 +4,11 @@
  */
 
 console.log(3 || (true && null) || false)
+
+//Выйдет 3
+
+// Шаг №1
+// (true && null) => null
+
+// Шаг №2
+// (3 || null || false) => 3 //так как 3 является true

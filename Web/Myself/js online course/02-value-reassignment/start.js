@@ -11,8 +11,16 @@
  * 5. Выведите значение переменной в консоль
  */
 
+
+let asd
+isStudent = true
+console.log(isStudent)
+
+'use strict'
+
 let isStudent
 isStudent = true
 console.log(isStudent)
+
 isStudent = false
 console.log(isStudent)

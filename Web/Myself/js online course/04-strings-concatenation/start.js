@@ -12,6 +12,7 @@
  */
 
 
+
 const firstName = "Du"
 const surname = "Okoneshnikov"
 const profile = "Developer"
@@ -19,3 +20,15 @@ const profile = "Developer"
 const user = `Меня зовут ${firstName} ${surname} и я ${profile}`
 
 console.log(user)
+const yearBird = prompt('How old are u?: ', 18)
+
+if(yearBird > 18){
+    console.log("Доступ разрешене")
+}
+else if(yearBird < 18){
+    console.log("Доступ не разрешен, слишком маленький")
+}
+else{
+    console.log("Введено не правильное значение")
+}
+

@@ -10,4 +10,7 @@
 
 const myCountry = "Russia"
 
+
+const asd = "Sakha"
+
 console.log(myCountry)
