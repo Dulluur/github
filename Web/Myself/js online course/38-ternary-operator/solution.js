@@ -22,9 +22,9 @@
 // }
 
 // // ПОДЗАДАЧА 3 - Явный возврат результата
-// const isArrayEmpty = (inputArray) => {
-//   return inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
-// }
+const isArrayEmpty3 = (inputArray) => {
+  return inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
+}
 
 // ПОДЗАДАЧА 3 - Неявный возврат результата
 const isArrayEmpty = (inputArray) =>

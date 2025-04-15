@@ -6,7 +6,10 @@
 
 const a = [1, 2, 3]
 
+// let b = [...a]
 // Напишите код здесь
+
+let b = JSON.parse(JSON.stringify(a))
 
 b.push('newElement')
 
