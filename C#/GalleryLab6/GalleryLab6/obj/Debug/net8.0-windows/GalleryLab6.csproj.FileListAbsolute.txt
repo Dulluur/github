@@ -1,0 +1,17 @@
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\bin\Debug\net8.0-windows\GalleryLab6.exe
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\bin\Debug\net8.0-windows\GalleryLab6.deps.json
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\bin\Debug\net8.0-windows\GalleryLab6.runtimeconfig.json
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\bin\Debug\net8.0-windows\GalleryLab6.dll
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\bin\Debug\net8.0-windows\GalleryLab6.pdb
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.Form1.resources
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.GalleryForm.resources
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.csproj.GenerateResource.cache
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.AssemblyInfoInputs.cache
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.AssemblyInfo.cs
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.csproj.CoreCompileInputs.cache
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.dll
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\refint\GalleryLab6.dll
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.pdb
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\GalleryLab6.genruntimeconfig.cache
+C:\Users\Du\source\repos\GalleryLab6\GalleryLab6\obj\Debug\net8.0-windows\ref\GalleryLab6.dll

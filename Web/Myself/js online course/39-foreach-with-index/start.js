@@ -10,3 +10,10 @@
  */
 
 const myCities = ['London', 'New York', 'Singapore']
+
+
+const findCities = (element, index) =>{
+    return `${element} is at the index ${index} in the myCities array`
+}
+
+myCities.forEach((element, index) => console.log(findCities(element, index)))
