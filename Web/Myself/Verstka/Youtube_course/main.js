@@ -1,17 +1,26 @@
-const calculartor = {
-  read() {
-    this.a = Number(prompt("Введите первое число: ", 0));
-    this.b = Number(prompt("Введите второе число: ", 0));
+const users = [
+  {
+    name: "Du",
+    age: 28,
   },
-  sum() {
-    return this.a + this.b
+  {
+    name: "Ostap",
+    age: 26,
   },
-  mul() {
-    return this.a * this.b
+  {
+    name: "Dima",
+    age: 29,
   },
-};
+];
 
-calculartor.read()
-console.log('calculator: ', calculartor)
-console.log('Сумма:', calculartor.sum())
-console.log('Произведение: ', calculartor.mul())
+// console.log(
+//     users.filter((user) => {
+//         return user.name === "Du" || user.age < 45
+//     })
+// )
+
+const filterUsers = users.filter(({name, age}) =>{
+    return name === "Du" || age < 18
+})
+
+console.log(filterUsers)

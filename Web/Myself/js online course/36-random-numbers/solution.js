@@ -36,7 +36,6 @@ const addRandomNumberToArray = (arr, min, max) => {
   } while (updatedArr.includes(newRandomNumber))
 
   updatedArr.push(newRandomNumber)
-
   return updatedArr
 }
 
