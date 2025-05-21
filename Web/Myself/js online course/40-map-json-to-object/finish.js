@@ -17,6 +17,11 @@ const postsJSON = [
 ]
 
 let someMassive = postsJSON.map(JSON.parse)
-console.log(someMassive)
-console.log(someMassive[1])
+// console.log(someMassive)
+// console.log(someMassive[1])
 console.log(someMassive[someMassive.length-1].commentsQuantity)
+
+let someMassMassive = postsJSON.map(JSON.parse)
+console.log(someMassMassive)
+console.log(someMassMassive[1])
+console.log(someMassMassive[someMassMassive.length-1].commentsQuantity)

@@ -18,10 +18,17 @@ const posts = [
   { postId: 6134, commentsQuantity: 2 },
 ]
 
+const findMassiveElement = (id, post) =>{
+  return posts.find(post => post.postId === id)
+}
+
+console.log(findMassiveElement(6134, posts))
+console.log(findMassiveElement(3133, posts))
+
 const findPostById = (id, posts) =>{
   return posts.find(post => post.postId === id) 
 }
 
-console.log(findPostById(6134, posts)) // { postId: 6134, commentsQuantity: 2 }
+// console.log(findPostById(6134, posts)) // { postId: 6134, commentsQuantity: 2 }
 
-console.log(findPostById(4511, posts)) // undefined
+// console.log(findPostById(4511, posts)) // undefined
