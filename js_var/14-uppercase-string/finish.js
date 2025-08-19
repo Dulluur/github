@@ -12,3 +12,11 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const character2 = "Du is designer and developer"
+
+console.log(character2 instanceof String)
+console.log(typeof character2)
+
+const toUpperCharacter = character2.toUpperCase()
+console.log(toUpperCharacter)

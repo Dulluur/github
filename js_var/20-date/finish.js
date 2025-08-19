@@ -4,3 +4,7 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const timeDu = new Date()
+const timeMilli = timeDu.getTime()
+console.log(timeMilli)

@@ -6,3 +6,7 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+const goodHi = "Good morning"
+const replaceHi = goodHi.replace("morning", "evening")
+console.log(replaceHi)

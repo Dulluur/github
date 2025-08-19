@@ -8,3 +8,9 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myMassive2 = [15, null, "Du"]
+console.log(myMassive2)
+
+myMassive2[2] = "Developer"
+console.log(myMassive2)

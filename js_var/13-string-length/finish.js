@@ -4,3 +4,7 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+const someStroke = "Du is nice designer and developer"
+
+console.log(someStroke.length)

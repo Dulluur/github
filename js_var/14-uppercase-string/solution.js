@@ -13,18 +13,18 @@
  * 5. Выведите в консоль значение второй переменной
  */
 
-const myFavoriteSeason = 'summer'
+// const myFavoriteSeason = 'summer'
 
-console.log(myFavoriteSeason instanceof String)
+// console.log(myFavoriteSeason instanceof String)
 
-console.log(typeof myFavoriteSeason)
+// console.log(typeof myFavoriteSeason)
 
-const seasonToUpperCase = myFavoriteSeason.toUpperCase()
+// const seasonToUpperCase = myFavoriteSeason.toUpperCase()
 
-console.log(seasonToUpperCase)
+// console.log(seasonToUpperCase)
 
-// // СОЗДАНИЕ ЭКЗЕМПЛРЯРА String
-// const myString = new String('Bogdan')
-// console.log(myString instanceof String)
-// console.log(typeof myString)
-// console.log(myString.toUpperCase())
+// СОЗДАНИЕ ЭКЗЕМПЛРЯРА String
+const myString = new String('Bogdan')
+console.log(myString instanceof String)
+console.log(typeof myString)
+console.log(myString.toUpperCase())

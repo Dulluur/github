@@ -6,3 +6,7 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const myMassive = [15, null, "Du"]
+console.log(myMassive[0])
+console.log(myMassive.length)
