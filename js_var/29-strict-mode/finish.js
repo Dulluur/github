@@ -8,8 +8,8 @@
 'use strict'
 
 function myFunction() {
-  a = 2
+  let a = 2
   return a
 }
 
-myFunction()
+console.log(myFunction())

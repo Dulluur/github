@@ -8,3 +8,11 @@
  */
 
 const myArray = [1, 2]
+
+myArray[10] = 'abc'
+
+console.log(myArray)
+console.log(myArray.length)
+
+
+// Выйдут два первых числа, потом 8 пустых, а уже после 10 индексом = abc, а всего длина 11 будет так как все начинается с 0

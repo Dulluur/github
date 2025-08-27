@@ -10,8 +10,8 @@ let myVariable1 = 10
 let myVariable2 = '5'
 
 // // Вариант 1 конвертации строки в число
-// console.log(parseInt('25'))
-// console.log(typeof parseInt('25'))
+console.log(parseInt('25'))
+console.log(typeof parseInt('25'))
 
 // // Вариант 2 конвертации строки в число
 // console.log(+'35')

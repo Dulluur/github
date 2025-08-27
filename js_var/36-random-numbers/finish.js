@@ -18,3 +18,20 @@ const MIN = 1000
 const MAX = 9999
 
 const myNumbers = [2355, 7235, 8135, 1762, 2361, 8351]
+
+const randomNumber = (min, max) =>{
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const addRandomNumberToArray = (arr, min, max) =>{
+    const newRandomNumber = randomNumber(min, max)
+
+    arr.push(newRandomNumber)
+    return arr
+}
+
+const updatedArray = addRandomNumberToArray(myNumbers, MIN, MAX)
+console.log('UPDATED ARRAY', updatedArray)
+console.log('ORIGINAL ARRAY', myNumbers)
+
+//ДОДЕЛАТЬ ДЬУЛУУР, ТЫ ОБЯЗАН ДОДЕЛАТЬ, ТЫ САМ СЕБЕ ПИШЕШЬ

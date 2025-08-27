@@ -15,7 +15,7 @@ console.log(3 || (true && null) || false) // <-- 3
  * 3
  */
 
-// console.log(true && null && 10) // <-- null
-// console.log(true && 'abc' && 10) // <-- 10
+console.log(true && null && 10) // <-- null
+console.log(true && 'abc' && 10) // <-- 10
 
-// console.log(10 || false) // <-- 10
+console.log(10 || false) // <-- 10

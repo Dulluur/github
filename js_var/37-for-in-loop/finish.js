@@ -6,13 +6,15 @@
  */
 
 const myObject = {
-  name: 'Mike',
+  name: "Mike",
   age: 30,
-  city: 'London',
-}
+  city: "London",
+};
 
-Object.prototype.country = 'England'
+Object.prototype.country = "England";
 
 for (let key in myObject) {
-  console.log(myObject[key])
+  if (myObject.hasOwnProperty(key)) {
+    console.log(myObject[key]);
+  }
 }
