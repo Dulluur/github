@@ -15,3 +15,9 @@ const postsJSON = [
   '{"postId":6134,"commentsQuantity":2}',
   '{"postId":2351,"commentsQuantity":8}',
 ]
+
+const jsonResult = postsJSON.map(JSON.parse)
+console.log(typeof(jsonResult))
+console.log(jsonResult[1].postId)
+// console.log(jsonResult[-1].commentsQuantity)
+console.log(jsonResult.at(-1).commentsQuantity)

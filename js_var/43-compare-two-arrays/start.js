@@ -11,6 +11,18 @@
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
 
+function areArraysEqual(firstArray, secondArray){
+    if(firstArray.length != secondArray.length){
+        return false
+    }
+    for(let i=0; i<firstArray.length; i++){
+        if(firstArray[i] !== secondArray[i]){
+            return false
+        }
+    }
+    return true
+}
+
 const a = [1, 2, 3]
 const b = [1, 2, 3]
 

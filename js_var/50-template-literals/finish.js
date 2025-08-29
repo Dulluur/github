@@ -24,3 +24,9 @@ console.log(templateLiteral(myAnotherNumber))
 Это число больше или равно 10.
 Квадратный корень этого числа - 5.
 */
+
+function templateLiteral(num){
+    return `Это число ${num}.
+    Это число ${num < 10 ? 'меньше' : 'больше или равно'} 10.
+    Квадратный корень этого числа - ${Math.sqrt(num)}.`
+}

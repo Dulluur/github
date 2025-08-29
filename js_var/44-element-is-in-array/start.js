@@ -12,3 +12,10 @@ const transports = ['Bus', 'Car', 'Bicycle', 'Airplane']
 console.log(isElementInArray(transports, 'Bus')) // true
 console.log(isElementInArray(transports, 'Phone')) // false
 console.log(isElementInArray(transports, 'Airplane')) // true
+
+function isElementInArray(inputArray, searchElement){
+    if (inputArray.includes(searchElement)){
+        return true
+    }
+    return false
+}
