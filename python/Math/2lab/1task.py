@@ -1,4 +1,5 @@
 import numpy as np
+from numpy import random as ran
 from scipy import linalg
 
 # matrixA = np.array([
@@ -98,11 +99,31 @@ F = np.array([[2+1j,1,0,0],[1,2-1j,0,0],[0,0,1+1j,1],[0,0,1,1-1j]])
 
 def EigenFind(arr):
     la, v = linalg.eig(arr)
-    print("Eigenvalues: ",la,"\nEigenvectors: ", v[:,0], " ", v[:,1])
+    print("Eigenvalues: ",la,"\nEigenvectors: ", v)
 
 A = np.array([[9,2,3,5],[3,1,3,5],[1,1,4,2],[1,2,4,3]])
 B = np.array([[4,1,0,0,0],[3,4,1,0,0],[0,3,4,1,0],[0,0,3,4,1],[0,0,0,3,4]])
-print("A:")
-EigenFind(A)
-print("B:")
-EigenFind(B)
+# print("A:")
+# EigenFind(A)
+# print("B:")
+# EigenFind(B)
+
+# 5
+m = int(input())
+A5 = np.random.rand(m, m)
+b = np.ones(m)
+Aa = np.linalg.inv(A5)
+
+print(f"Матрица A\n {A5}")
+print(f"Определитель \n {np.linalg.det(A5)}")
+print(f"Обратная матрица \n {Aa}")
+
+try:
+    print(f"у через обратная матрицу \n {np.dot(Aa,b)}")
+except:
+    print("Невозможно")
+
+try:
+    print(f"у Через solve \n {np.linalg.solve(A5,b)}")
+except:
+    print("Невозможно")
